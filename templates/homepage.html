@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>My first website</title>
-    <link href="/Users/mg/Desktop/web site/home.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     </ul>
 
     <form action="...">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="" id="" cols="10" rows="10"></textarea>
         <input type="submit" value="przeslij">
     </form>
 
